@@ -1,0 +1,99 @@
+.content-area{
+    background-color: #ecf0f1;
+ }
+ .content {
+     display: grid;
+     grid-template-columns: 20% 55% 20%;
+     column-gap: 10px;
+     margin-top: 10px;
+ }
+ 
+ 
+ 
+     
+ .explore-btn {
+   background-color: #fff;
+   padding: 10px 15px;
+   margin-bottom: 10px;
+   border-radius: 5px;
+   h3{
+     font-size: 20px;
+     font-weight: 600;
+     padding: 10px 0;
+ }
+   ul{
+     li{
+         margin-bottom: 15px;
+         a{
+             font-size: 17px;
+             font-weight: 400;
+             span{
+                 margin-right: 15px;
+                 font-size: 22px;
+             }
+         }
+     }
+   }
+ }
+ 
+ 
+ 
+ .download-link {
+     background-color: #fff;
+     border-radius: 5px;
+     h3 {
+         font-size: 20px;
+         padding: 10px;
+       }
+       .link {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         column-gap: 10px;
+         a{
+             img{
+                 width: 100px;
+                 margin-bottom: 10px;
+             }
+         }
+       }
+   }
+   
+   
+ 
+ .suggested-people {
+     background-color: #fff;
+     margin-top: 10px;
+     border-radius: 5px;
+     h3{
+         font-size: 20px;
+         padding: 10PX;
+         text-transform: capitalize;
+         font-weight: 600;
+     }
+     .suggested-profile {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         img{
+             width: 30px;
+             border-radius: 50%;
+         }
+         h3{
+             font-size: 12px;
+             font-weight: 400;
+             margin-right: 30px;
+         }
+         input[type="submit"] {
+             padding: 5px 10px;
+             background-color: #fff;
+             border-radius: 5px;
+             color: #95a5a6;
+             cursor: pointer;
+           }
+       }
+   }
+   
+ 
+   
+  
