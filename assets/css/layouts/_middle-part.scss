@@ -510,3 +510,38 @@
 
 
 
+.story-image-icon p {
+	font-size: 20px;
+	color: blue;
+	position: absolute;
+	top: 165px;
+	left: 393px;
+}
+.story-image-icon span {
+	background-color: #333;
+	color: #fff;
+	padding: 20px 35px;
+	border-radius: 17px 17px 0 0;
+	position: absolute;
+	top: 172px;
+}
+
+
+.story-image-details img {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	position: absolute;
+	top: 63px;
+	left: 586px;
+}
+
+.story-image-details h4 {
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+	position: absolute;
+	top: 195px;
+	left: 495px;
+	font-weight: 600;
+}
